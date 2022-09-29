@@ -15,7 +15,7 @@ function Nav(props) {
                <span role="img" aria-label="camera">
                   {" "}
                </span>{" "}
-               Shom Bhandari
+               Shom Bhanda
             </a>
          </h2>
          <nav>
