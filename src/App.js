@@ -3,9 +3,9 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import ContactForm from "./components/Contact";
-import Project from "./components/Project";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Project from "./components/Project";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
 
 function App() {
    const [categories] = useState([
