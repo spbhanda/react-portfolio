@@ -1,43 +1,27 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
-import About from "./components/About";
-import Gallery from "./components/Gallery";
-import ContactForm from "./components/Contact";
-// import Project from "./components/Project";
-// import Header from "./components/Header";
-// import Footer from "./components/Footer";
+import About from "../src/Components/About";
+import Projects from "../src/Components/Projects";
+import Resume from "../src/Components/Resume";
+import Contact from "../src/Components/Contact";
+import Header from "../src/Components/Header";
+import Footer from "../src/Components/Footer";
 
 function App() {
-   const [categories] = useState([
-      { name: "portraits", description: "Portraits of people in my life" },
-      { name: "food", description: "Delicious delicacies" },
-      { name: "landscape", description: "Fields, farmhouses, waterfalls, and the beauty of nature" },
-   ]);
+   const [sections] = useState(["About Me", "Projects", "Contact", "Resume"]);
 
-   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-   const [contactSelected, setContactSelected] = useState(false);
-
+   const [currentSection, setCurrentSection] = useState(sections[0]);
    return (
-      <div>
-         <Nav
-            categories={categories}
-            setCurrentCategory={setCurrentCategory}
-            currentCategory={currentCategory}
-            contactSelected={contactSelected}
-            setContactSelected={setContactSelected}
-         ></Nav>
-         <main>
-            {!contactSelected ? (
-               <>
-                  <Gallery currentCategory={currentCategory}></Gallery>
-                  <About></About>
-               </>
-            ) : (
-               <ContactForm></ContactForm>
-            )}
-         </main>
-      </div>
+      <>
+         <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
+
+         <div>
+            {currentSection === "About Me" && <About />}
+            {currentSection === "Projects" && <Projects />}
+            {currentSection === "Contact" && <Contact />}
+            {currentSection === "Resume" && <Resume />}
+         </div>
+         <Footer />
+      </>
    );
 }
 
