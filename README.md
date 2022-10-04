@@ -40,7 +40,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployed URL:
 
-https://spbhanda.github.io/react-portfolio/
+http://spbhanda.github.io/react-portfolio
 
 ## Webpage Snapshot:
 
