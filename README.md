@@ -40,4 +40,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Webpage Snapshot:
 
-![](https://github.com/spbhanda/tech-blog/blob/main/src/assets/images/CoverPage.JPG)
+![](https://github.com/spbhanda/react-portfolio/blob/main/src/assets/images/CoverPage.JPG)
