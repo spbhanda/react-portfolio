@@ -45,7 +45,7 @@ const Projects = ({ category }) => {
          link: "https://spbhanda.github.io/weatherDashboard/",
          githublink: "https://github.com/spbhanda/weatherDashboard",
       },
-
+      // Added project 3 here:
       {
          name: "Horror Scorer",
          image_path: horro_scorer,
