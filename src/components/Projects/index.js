@@ -5,6 +5,7 @@ import runbuddy from "./Images/01-run-buddy.JPG";
 import generate_password from "./Images/03-generate-password.JPG";
 import note_taker from "./Images/04-note-taker.JPG";
 import weather from "./Images/05-weather_dashboard.JPG";
+import horro_scorer from "./Images/06_horror_scorer.JPG";
 
 const Projects = ({ category }) => {
    const [isModalOpen, setIsModalOpen] = useState(false);
@@ -43,6 +44,15 @@ const Projects = ({ category }) => {
          description: "This application show the 5 days weather for the selected city",
          link: "https://spbhanda.github.io/weatherDashboard/",
          githublink: "https://github.com/spbhanda/weatherDashboard",
+      },
+
+      {
+         name: "Horror Scorer",
+         image_path: horro_scorer,
+         project: category,
+         description: "This application show the 5 days weather for the selected city",
+         link: "https://horror-scorer.herokuapp.com/",
+         githublink: "https://github.com/Zaphod1977/Horror_Scorer",
       },
    ]);
 
