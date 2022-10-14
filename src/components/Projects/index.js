@@ -50,7 +50,7 @@ const Projects = ({ category }) => {
          name: "Horror Scorer",
          image_path: horro_scorer,
          project: category,
-         description: "This application show the 5 days weather for the selected city",
+         description: "This app is a horror movie blog",
          link: "https://horror-scorer.herokuapp.com/",
          githublink: "https://github.com/Zaphod1977/Horror_Scorer",
       },
