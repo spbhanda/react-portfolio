@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a6aa84fc.css",
-    "main.js": "/react-portfolio/static/js/main.a332843a.js",
+    "main.js": "/react-portfolio/static/js/main.2372f81b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/01-run-buddy.JPG": "/react-portfolio/static/media/01-run-buddy.b57f2b88349c6b77211d.JPG",
     "static/media/myPhoto.JPG": "/react-portfolio/static/media/myPhoto.beda09dfb56dea96927d.JPG",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.62c629beec5e124cd27c.pdf",
+    "static/media/06_horror_scorer.JPG": "/react-portfolio/static/media/06_horror_scorer.2549bb20a6d9f9d5c319.JPG",
     "static/media/05-weather_dashboard.JPG": "/react-portfolio/static/media/05-weather_dashboard.9d66a6761820038bb9c1.JPG",
     "static/media/03-generate-password.JPG": "/react-portfolio/static/media/03-generate-password.bd745fe0660148b171df.JPG",
     "static/media/04-note-taker.JPG": "/react-portfolio/static/media/04-note-taker.ff8871b4e443f4de9b83.JPG",
     "index.html": "/react-portfolio/index.html",
     "main.a6aa84fc.css.map": "/react-portfolio/static/css/main.a6aa84fc.css.map",
-    "main.a332843a.js.map": "/react-portfolio/static/js/main.a332843a.js.map",
+    "main.2372f81b.js.map": "/react-portfolio/static/js/main.2372f81b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6aa84fc.css",
-    "static/js/main.a332843a.js"
+    "static/js/main.2372f81b.js"
   ]
 }
