@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import About from "../src/Components/About";
-import Projects from "../src/Components/Projects";
-import Resume from "../src/Components/Resume";
-import Contact from "../src/Components/Contact";
-import Header from "../src/Components/Header";
-import Footer from "../src/Components/Footer";
+// import About from "../src/Components/About";
+import About from "./components/About";
+import Projects from "../src/components/Projects/";
+import Resume from "../src/components/Resume";
+import Contact from "../src/components/Contact";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
 
 function App() {
    const [sections] = useState(["About Me", "Projects", "Contact", "Resume"]);
